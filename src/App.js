@@ -11,7 +11,6 @@ import {
   ScrollRestoration,
 } from "react-router-dom";
 import Login from "./pages/Login";
-import ProtectedRoute from "./components/ProtectedRoute";
 import Redirect from "./components/Redirect";
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
