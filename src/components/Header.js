@@ -56,7 +56,7 @@ const Header = () => {
           </div>
         </Link>
         <div className="flex items-center gap-8">
-          <ul className="flex items-center h-full space-x-4">
+          <ul className="hidden md:flex items-center h-full space-x-4">
             <Link to="/">
               <li className="text-base text-black font-bold hover:text-orange-900 hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300">
                 Home
